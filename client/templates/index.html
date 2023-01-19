@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Список заявок</title>
+  </head>
+  <body>
+    <p>Список заявок:</p>
+    {% for job in jobs %}
+    <p>От {{ job }} статус "открыта"</p>
+    {% endfor %}
+  </body>
+</html>
